@@ -1,11 +1,38 @@
-#my-container {
-    width: 700px;
-    height: 700px;
-    background-color: lightblue;
-    margin: 1rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    
+
+body {
+    background-color: #083b4c;
+    font-family: sans-serif;
 }
 
+#my-container {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.myCard {
+    width: 70px;
+    height: 70px ;
+    margin: 10px 10px;
+    line-height: 70px;
+}
+
+.number-square {
+background-color: #1389b2;
+}
+.fizz-square {
+background-color: #0bd6a1;
+}
+.buzz-square {
+background-color: #ffd166;
+}
+.fizzbuzz-square {
+background-color: #f0466f;
+}

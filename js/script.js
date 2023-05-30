@@ -12,26 +12,24 @@ for (let i = 1; i <= 100; i++) {
     let stringa = ''
 
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log('fizzbuzz')
         stringa = 'fizzbuzz'
-        containerElement.innerHTML += `<div>${stringa}</div>`;
+        containerElement.innerHTML += `<div class="myCard fizzbuzz-square text-center">${stringa}</div>`;
     }
     
-    else if (i % 3 === 0) {
-        console.log('fizz')
+    else if (i % 3 === 0) {     
         stringa = 'fizz'
-        containerElement.innerHTML += `<div>${stringa}</div>`;
+        containerElement.innerHTML += `<div class="myCard fizz-square text-center ">${stringa}</div>`;
     }
     
     else if (i % 5 === 0) {
-        console.log('buzz')
         stringa = 'buzz'
-        containerElement.innerHTML += `<div>${stringa}</div>`;
+        containerElement.innerHTML += `<div class="myCard buzz-square text-center ">${stringa}</div>`;
     }
     else {
-        console.log(i)
-        containerElement.innerHTML += `<div>${i}</div>`;
+        stringa = i;
+        containerElement.innerHTML += `<div class="myCard number-square text-center">${stringa}</div>`;
     }
-    
+
+    console.log(stringa)
 }
 
