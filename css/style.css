@@ -22,17 +22,15 @@ h1 {
     height: 70px ;
     margin: 10px 10px;
     line-height: 70px;
+    background-color: #1389b2;
 }
 
-.number-square {
-background-color: #1389b2;
-}
-.fizz-square {
+.fizz {
 background-color: #0bd6a1;
 }
-.buzz-square {
+.buzz {
 background-color: #ffd166;
 }
-.fizzbuzz-square {
+.fizzbuzz {
 background-color: #f0466f;
 }
